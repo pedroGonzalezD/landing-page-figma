@@ -42,11 +42,10 @@
   position: fixed;
   z-index: 15;
   top: 0;
-  right: 0;
-  left: 0;
   padding: 0 1rem;
   background-color: hsla(0, 0%, 11%, 0);
   transition: background-color 800ms;
+  width: 100%;
 }
 
 header.active{
@@ -139,6 +138,10 @@ header.active{
 }
 
 @media (min-width: 1024px){
+
+  .header{
+    padding: 0;
+  }
 
   .hamburger{
     display: none;
