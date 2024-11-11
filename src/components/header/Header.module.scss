@@ -1,4 +1,4 @@
-@import '../../styles/var';
+@use '../../styles/var' as *;
 
 .hamburger {
   cursor: pointer;

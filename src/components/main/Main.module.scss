@@ -1,4 +1,4 @@
-@import '../../styles/_var.scss';
+@use '../../styles/_var.scss' as *;
 
 .hero{
   position: absolute;
